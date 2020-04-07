@@ -1,0 +1,31 @@
+.modelScroll{
+    overflow: auto;
+    scroll-behavior:  smooth ;
+    max-height: 560px;
+}
+
+/* width */
+.modelScroll::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .modelScroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  .modelScroll::-webkit-scrollbar-thumb {
+    background: rgb(223, 221, 221); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .modelScroll::-webkit-scrollbar-thumb:hover {
+    background: #b4b0b0; 
+  }
+  .modelTable {
+    padding: 10px;
+    border-style: outset;
+}
